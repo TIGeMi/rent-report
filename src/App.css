@@ -1,0 +1,8 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-image: url('https://cdn.sanity.io/images/v48q37k7/production/d09208183125ab47493d5de2f8710b6faa27d7cc-3000x2000.jpg?auto=format&fit=max&q=90&w=1875');
+  background-position: center;
+  background-size: cover;
+}

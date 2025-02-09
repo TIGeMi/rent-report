@@ -1,0 +1,91 @@
+.report-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 100px);
+}
+
+.report-wrapper .form-element {
+  padding: 0 !important;
+}
+
+.report-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  margin: 0;
+  padding: 0;
+  border: 5px solid #3f30df10;
+  border-radius: 10px;
+  /* background: #f9f9f9; */
+  font-family: Arial, sans-serif;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.report-container h2 {
+  text-align: center;
+  margin-bottom: 2px;
+  color: #333;
+  font-size: 22px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e7490b;
+}
+
+.report-container h3 {
+  margin: 0;
+  color: #d9534f;
+  font-size: 20px;
+}
+
+.report-container h4 {
+  margin: 0px;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.report-container > div {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+.report-container span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.report-container div span {
+  margin-right: 4px;
+}
+
+.report-container div span.value {
+  margin-right: 15px;
+  font-weight: 500;
+  color: rgb(232, 61, 61);
+}
+
+.report-container div > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px dashed #ddd;
+}
+
+.report-container div > div:last-child {
+  border-bottom: none;
+}
+
+.report-container .total h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.report-container .total span {
+  font-size: 16px;
+}
